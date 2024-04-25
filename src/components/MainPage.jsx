@@ -13,6 +13,7 @@ export function MainPage(){
 
         <img className="logo-image"  src={Logo}   alt="LogoBesameMucho"/>
 
+        <p>Besame Mucho Photography</p>
         
 
         </div>
