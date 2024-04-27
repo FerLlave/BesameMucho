@@ -1,27 +1,26 @@
-import './App.css'
-import MainPage from './components/MainPage.jsx'
-import Menu from './components/Menu.jsx'
+import "./App.css";
+import Gallery from "./components/Gallery.jsx";
+import MainPage from "./components/MainPage.jsx";
+import Menu from "./components/Menu.jsx";
 
 function App() {
- 
-  return(
-<div>
-<div>
-  
-      <Menu/>
-    </div>
+  return (
+    <div>
+      <div>
+        <Menu />
+      </div>
 
-    
-    <div> 
+      <div>
+        <MainPage />
+      </div>
+
+      <div>
+        <Gallery />
+      </div>
 
       
-      <MainPage/>
-      
     </div>
-    
-</div>
-    
-  )
+  );
 }
 
-export default App
+export default App;
