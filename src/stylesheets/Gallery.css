@@ -1,0 +1,19 @@
+.container-gallery{
+    margin-top: 5%;
+}
+
+.title-gallery{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+
+}
+
+.photos{
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    
+   
+
+}

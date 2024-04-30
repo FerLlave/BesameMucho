@@ -1,10 +1,15 @@
 import React from "react";
 import "../stylesheets/Gallery.css";
+import TitlesAnimation from "./TitlesAnimation";
+
+
 
 function Gallery() {
   return (
     <div className="container-gallery">
-      <h1 className="title-gallery">//Portafolio</h1>
+
+      <TitlesAnimation className="title-gallery" text = "//Portafolio"></TitlesAnimation>
+      
 
       <div className="photos">
         <div className="page-one">
